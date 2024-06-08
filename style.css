@@ -1,0 +1,512 @@
+*{
+
+     margin-top: 30;
+    padding: 0%;
+     flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+ 
+}
+ .navbar{
+    background-color: rgb(2, 102, 160);
+    height: 90px;
+      
+  }
+  #navelinks{
+
+    color: rgb(255, 255, 255);
+     text-transform: uppercase;
+     font-size: 14px;
+      
+   
+
+ 
+ 
+ }
+ #links12{
+ 
+  color: rgb(255, 255, 255);
+
+
+  }
+  @media only screen and (max-width:807px)  { 
+    #links12{ 
+    display: none;
+    }
+   }
+ #navelinksw{
+
+  color: rgb(255, 255, 255);
+   text-transform: uppercase;
+   font-size: 14px;
+    
+ 
+
+
+
+}
+ @media only screen and (max-width:826px)  { 
+  #navelinks{ 
+   display: none;
+  }
+ }
+ 
+ .contner{
+    background-image: url(./image/home-new-bg-free-img\ \(1\).jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    width:  100%;
+    height:600px;
+    background-attachment: fixed;
+   
+         }
+         .grident{
+          position: absolute; 
+          width: 100%;
+          height: 600px;
+          background: linear-gradient(to left, rgba(0, 0, 0, 0.37), rgba(60, 82, 184, 0.432), rgba(29, 26, 26, 0.342)); 
+        
+        
+         }
+
+ 
+
+#logo1{
+ 
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+
+}
+.contner1{
+
+padding-top: 150px;
+padding-left: 50px;
+ 
+
+
+}
+.contner1 h1{
+
+     font-size: 5vw;
+     font-weight: bold;
+     color: rgb(255, 255, 255);
+    
+
+
+
+}
+.contner1 h3{
+  font-size: 2vw;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+.contner1 button{
+
+    width: 140px;
+    height: 4rem;
+    margin: 10px;
+    transition: 0.10ms;
+}
+#button_1{
+
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    transition: 0.10ms;
+ 
+}
+#button_2{
+
+    background-color:  rgba(80, 96, 148, 0);
+    color: black;
+    border: 1px solid white;
+ }
+#button_1:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+     
+}
+#button_2:hover{
+
+    background-color: black;
+    color: aliceblue;
+    border: none;
+ }
+ 
+  
+ 
+ 
+
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  padding-left: 100px;
+  
+  
+}
+#logo2{
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 30px;
+  animation: scroll   linear infinite;
+  }
+.slider {
+  margin-top: 40px;
+  background-color: rgb(255, 255, 255);
+  padding: 3em 1em;
+}
+
+ .cards{
+   
+  display: inline-flex;
+
+   width: 400px;
+   height: 420px;
+ 
+   position: relative;
+   left: 4.9%;
+   margin: 2px;
+   
+ }
+
+ #background1{
+
+  background-image: url(./image/women-fashion-free-img.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+ #background2{
+  background-image: url(./image/men-fashion-free-img\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+ }
+ #background3{
+
+  background-image: url(./image/footwear-free-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+ }
+ .gridents{
+
+
+  position: absolute;
+  width: 100%;
+  height: 420px;
+  background: linear-gradient(to right,  rgba(68, 68, 68, 0.596),  rgba(46, 46, 46, 0.315)); 
+  
+
+
+ }
+
+ .text{
+
+   margin-top: 60%;
+   margin-left: 6%;
+ 
+ }
+ 
+
+ #h1_1{
+
+  color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1.5rem;
+ }
+  #p1{
+
+
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  
+ }
+ #bur{
+
+  width: 120px;
+  height: 40px;
+  border: none;
+
+ }
+ #bur:hover{
+
+  width: 120px;
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+ }
+.products{
+width: 100%;
+background-color: rgb(247, 247, 247);
+ margin-top:  10%;
+ display: flex;
+ padding: 10px;
+ justify-content: center;
+ 
+ 
+}
+  #h1_2{
+ display: block;
+ width: 100%; 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: 8%;
+ margin-bottom: 60px;
+
+
+}
+.product{
+  
+  width:252px ;
+  height: 430px;
+  /* border: 1px solid black; */
+ 
+  
+}
+#image_3{
+
+    width: 230px;
+    height: 240px;
+    
+
+}
+#h6_1{
+ 
+ font-size: 1.2rem;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ padding-top: 20px;
+
+
+
+
+
+}
+.material-symbols-outlined{
+ 
+  width: 10px;
+  cursor: pointer;
+ 
+
+}
+.material-symbols-outlined:hover{
+
+ color: rgb(255, 217, 0);
+
+
+}
+.bg_imag3{
+
+  background-image: url(./image/banner-03.jpg);
+  width: 98%;
+  height: 500px ;
+  position: relative;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ margin-top: 20PX;
+  
+}
+.grident1{
+
+
+ 
+  
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(to right,  rgba(67, 142, 255, 0.623),  rgba(255, 255, 255, 0)); 
+  
+ 
+
+
+}
+.text2{
+
+  padding-top: 160px;
+  padding-left: 70px;
+ 
+
+}
+#h5{
+  
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       color: aliceblue;
+   
+       
+}
+#h1_3{
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: bold;     
+    
+}
+#p222{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+         
+    
+}
+#h4{
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+     font-size: 1.2rem;
+    
+}
+#button4{
+
+  width: 180px;
+  height: 50px;
+    margin-top: 20px;
+   border: none;
+}
+#button4:hover{
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+ .ndbox2{
+  
+
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+   margin-top: 40px;
+  
+}
+#div_2{
+
+ 
+/* border: 1px solid black; */
+width: 270px;
+height: 300px;
+ margin: 30px;
+ text-align: center;
+ padding:10px;
+
+
+}
+#image_4{
+   display: block;
+   margin: auto;
+   width: 50px;
+   height: 50px;
+   
+
+
+
+
+}
+#h3_h3{
+    display: flex;
+   justify-content: center;
+   margin-top: 18px;
+  
+
+}
+ .footer{
+
+   /* width: 100%;
+   height: 650px; */
+   display: flex;
+   justify-content: center;
+   /* border: 1px solid black; */
+
+ }
+ #logo3{
+
+   width: 90px;
+   height: 25px;
+  margin-top: 10px;
+ }
+ #h312{
+  
+   font-size: 1.1rem;
+   margin-top: 50px;
+   font-weight: bold;
+  
+ }
+ #h2_4{
+  cursor: pointer;
+  margin-top: 50px;
+  font-size: 2rem; 
+
+ }
+ #h2_4:hover{
+  color: rgb(26, 144, 255);
+ }
+ .footercards{
+ 
+   width: 300px;
+    /* border: 1px solid black; */
+  margin: 5px;
+  margin-top: 100px;
+
+
+
+
+ }
+ #h4_1{
+ margin-top: 10px;
+margin-left: 10px;
+ 
+
+ }
+ 
+ #Anchor1{
+
+   display: block;
+   margin: 10px;
+   text-decoration: none;
+   color: black;
+
+
+ }
+ #Anchor1:hover{
+  
+   color: rgb(26, 144, 255);
+
+
+ }
+ #input_1{
+  display: block;
+   width: 300px;
+   height: 40px;
+   padding-left: 20px;
+   border: 1px solid rgb(156, 156, 156);
+
+ }
+ #Subscribe1{
+margin-top: 30px;  
+width: 110px;
+padding: 10px;
+ border: none;
+ background-color: rgb(26, 144, 255);
+ text-transform: uppercase;
+ color: white;
+ }
+ .footercards12{
+  display: flex;
+   justify-content: space-around;
+   margin-top: 50PX;
+   margin-bottom: 20PX;
+ }
+ #icons{
+   display: flex;
+    margin-left: 20PX;
+ 
+ }

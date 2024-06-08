@@ -1,0 +1,477 @@
+* {
+
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar {
+    background-color: rgb(2, 102, 160);
+    height: 90px;
+  
+  }
+  
+  #navelinks1 {
+  
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 14px;
+  
+  
+  
+  
+  
+  
+  }
+  #links12{
+ 
+    color: rgb(255, 255, 255);
+  
+  
+    }
+    @media only screen and (max-width:807px)  { 
+      #links12{ 
+      display: none;
+      }
+     }
+  
+  #logo__1 {
+  
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+  
+  }
+  
+  #navelinks {
+  
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 14px;
+  
+  
+  
+  
+  
+  
+  }
+  
+  @media only screen and (max-width:826px) {
+    #navelinks1 {
+      display: none;
+    }
+  }
+  
+  .yarkhan12 {
+  
+    width: 400px;
+    color: aqua;
+    background-color: bisque;
+  
+  }
+  
+  .contner3 {
+  
+    width: 98.7vw;
+  
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    /* background-color: aqua; */
+  
+  
+  
+  }
+  
+  
+  @media only screen and (max-width: 918px) {
+    .contner3{
+      display: block;
+    }
+  
+  }
+  
+  #section1 {
+    width: 250px;
+    height: 48px;
+    /* padding-left: 10px; */
+    /* margin-top: 10px; */
+  
+  
+  
+  }
+  @media only screen and (max-width:916px) {
+    #section1  {
+      width:90vw;
+    }
+  }
+  @media only screen and (max-width:668px) {
+    #section1  {
+      width:70vw;
+    }
+  }
+  
+  #button_1 {
+    width: 40px;
+    height: 48px;
+    border: none;
+    margin-top: 11px;
+    color: white;
+    background-color: rgb(2, 102, 160);
+  
+  
+  }
+  
+  #button_2 {
+    width: 150px;
+    height: 45px;
+    border: none;
+    margin-top: 11px;
+    color: white;
+    background-color: rgb(2, 102, 160);
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .div1 {
+  
+    /* width: 25vw; */
+  
+    margin-left: 2%;
+    margin-top: 4%;
+    /* background-color: rgb(244, 244, 244); */
+    /* border: 1px solid black; */
+    position: relative;
+    top: 20%;
+  
+  }
+  @media only screen and (max-width:714px) {
+    .div1 {
+      width: 350px;
+    }
+  }
+  
+  .div2 {
+  
+    display: inline-block;
+    width: 71vw;
+    margin-left: 2%;
+    /* height: 300vh; */
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
+  
+  
+  
+  
+  }
+  
+  .contnet_1 {}
+  
+  #hh1{
+  
+    margin-top: 15px;
+  }
+  
+  .contnet_2 {}
+  
+  .contnet_3 {
+    display: flex;
+  
+  
+  
+  
+  
+  }
+  
+  
+  #p2 {
+  
+    margin-left: 100px;
+  
+  
+  }
+  
+  #p3 {
+    margin-left: 145px;
+  
+  
+  
+  }
+  
+  #p4 {
+  
+  
+    margin-left: 123px;
+  
+  }
+  
+  .block {
+  
+  
+    margin-top: 20px;
+  }
+  
+  .contnet_3 #img111 {
+  
+    width: 100px;
+    height: 90px;
+    border-radius: 2px ;
+  }
+  
+  #ic1 {
+  
+    color: gold;
+  
+  }
+  
+  .right {
+  
+    margin-left: 15px;
+  }
+
+  #sp{
+
+    margin-left: 125px;
+
+  }
+  
+  #sp1{
+   margin-left: 125px;
+   color: rgb(0, 0, 0);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+  font-size: 2vw;
+  
+  
+  }
+  #sp2{
+   position: relative;
+   float: right;
+   margin-left: 125px;
+  
+    
+  }
+  .se3{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  }
+  
+  
+  @media only screen and (max-width:914px) {
+    .se3 {
+       margin-left: 50px;
+    }}
+    @media only screen and (max-width:880px) {
+      .se3 {
+         margin-left: 225px;
+      }
+  }
+  @media only screen and (max-width:746px) {
+    .se3 {
+      margin-left: 170px;
+    }
+  }
+  @media only screen and (max-width:714px) {
+    .se3 {
+      margin-left: 70px;
+      display: block;
+    }
+  }
+  .images{
+    
+    /* border: 1px solid black; */
+    width: 232px;
+   height:400px;
+  /* display: flex; */
+  margin: 2px;
+  
+  }
+   
+  #image{
+  
+    width: 230px;
+    height: 200px;
+   
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  .footer_1 {
+  
+  
+    background-color: rgb(253, 253, 253);
+  
+  
+  
+  }
+  
+  #h1_5 {
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+  
+  
+  }
+  
+  #h1_5:hover {
+    color: rgb(26, 144, 255);
+  }
+  
+  .footers_cards {
+  
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+  
+  
+  
+  
+  
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .footers_cards {
+      display: block;
+  
+    }
+  }
+  
+  
+  
+  
+  .footercards_2 {
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin: 5px;
+    margin-top: 100px;
+  
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .footercards_2 {
+      width: 375px;
+      height: 200px;
+    }
+  }
+  
+  #h4_2 {}
+  
+  #h3_33 {
+    font-size: 1.1rem;
+    margin-top: 50px;
+    font-weight: bold;
+   
+  }
+  
+  #Anchor2 {
+  
+    display: block;
+    text-decoration: none;
+    color: black;
+  
+  
+  }
+  
+  #Anchor2:hover {
+  
+    color: rgb(26, 144, 255);
+  
+  
+  }
+  
+  #input_2 {
+  
+  
+  
+    display: block;
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid rgb(156, 156, 156);
+  }
+  
+  #Subscribe12 {
+  
+    margin-top: 30px;
+    width: 110px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(26, 144, 255);
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  #logo4 {
+  
+  
+    width: 90px;
+    height: 25px;
+    margin-top: 10px;
+  }
+  
+  
+  .footercards_12 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50PX;
+    margin-bottom: 20PX;
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .footercards_12 {
+      display: block;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  #icons {
+    display: flex;
+    margin-left: 20PX;
+  
+  }
